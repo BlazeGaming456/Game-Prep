@@ -14,8 +14,8 @@ const firebaseConfig = {
   projectId: process.env.FIREBASE_PROJECT_ID,
   storageBucket: "gameprep-5ffe5.firebasestorage.app",
   messagingSenderId: "754407660556",
-  appId: "1:754407660556:web:7a421862c0ed365f69e229",
-  measurementId: "G-G67YM1RCD3"
+  appId: "1:754407660556:web:67f6c24ffc37deec69e229",
+  measurementId: "G-F23Q32WTR0"
 };
 
 // Initialize Firebase
