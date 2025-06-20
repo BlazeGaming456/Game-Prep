@@ -9,9 +9,9 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAO1PDeLstGjusIaE7Nhp-TNJH6MTiUtSQ",
+  apiKey: process.env.FIREBASE_CLIENT_KEY,
   authDomain: "gameprep-5ffe5.firebaseapp.com",
-  projectId: "gameprep-5ffe5",
+  projectId: process.env.FIREBASE_PROJECT_ID,
   storageBucket: "gameprep-5ffe5.firebasestorage.app",
   messagingSenderId: "754407660556",
   appId: "1:754407660556:web:7a421862c0ed365f69e229",
